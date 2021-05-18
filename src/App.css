@@ -124,7 +124,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
-  z-index: 0;
+  z-index: 1;
 }
 
 .main-info h1 {
