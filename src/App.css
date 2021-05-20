@@ -282,7 +282,7 @@ nav ul li {
 
 .experience-wrapper {
   position: relative;
-  padding: 3.125rem;
+  padding: 3.125rem 0;
   overflow: hidden;
 }
 
@@ -296,7 +296,7 @@ nav ul li {
   content: "";
   top: 0;
   left: 50%;
-  margin-left: -0.0625rem;
+  margin-left: -.0625rem;
   width: .125rem;
   height: 100%;
   background: var(--primary-grey);
@@ -317,7 +317,7 @@ nav ul li {
 
 .timeline-block-left {
   float: left;
-  direction: ltr;
+  direction: rtl;
 }
 
 .marker {
