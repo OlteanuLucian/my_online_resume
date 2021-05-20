@@ -376,6 +376,10 @@ nav ul li {
   padding: 3rem 0;
 }
 
+.popupbox-wrapper h1 {
+  color: var(--primary-orange);
+}
+
 .portfolio-img {
   width: 15rem;
   border: .0625rem solid var(--primary-orange);
@@ -418,4 +422,46 @@ nav ul li {
   opacity: 70%;
   transition: .3s ease-in-out;
   cursor: pointer;
+}
+
+/******************POPUP BOX******************/
+.portfolio-img-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-orange);
+}
+
+.hyper-link:hover {
+  color: var(--primary-red);
+}
+
+/************************MEDIA*********************/
+@media(max-width: 768px) {
+  .portfolio-img-popupbox {
+    width: 100%;
+  }
+}
+
+@media(max-height: 570px) {
+  .popupbox-wrapper {
+    height: 100%;
+  }
+
+  .portfolio-img-popupbox {
+    width: 50%;
+  }
+}
+
+@media(max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+
+  .portfolio-img-popupbox {
+    width: 30%;
+  }
 }
