@@ -253,6 +253,7 @@ nav ul li {
   padding: .625rem;
   margin-bottom: 1.875rem;
   background-color: var(--primary-white);
+  transition: .3s ease-in-out;
 }
 
 .services .box:hover {
