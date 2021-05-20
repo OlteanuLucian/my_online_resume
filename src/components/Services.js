@@ -43,7 +43,6 @@ const Services = () => {
                             <p>Your service or product will appear at the top of the Google search bar</p>
                         </div>
                     </div>
-                    {/* - */}
                 </div>
             </div>
         </div>
