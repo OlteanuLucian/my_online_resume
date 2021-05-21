@@ -162,13 +162,13 @@ nav ul li {
   text-transform: uppercase;
   border-radius: 0;
   padding: .625rem .75rem .75rem .75rem;
-  color: #282c34;
+  color: #f9fd06;
   margin: 2rem;
 }
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--primary-hover-red);
+  background-color: #b9f80a;
   color: #283c34;
   transition: .2 ease-in-out;
 }
@@ -218,7 +218,7 @@ nav ul li {
   }
 }
 
-/************************SERVICES***************************/
+/************************SERVICES SECTION***************************/
 
 .services {
   text-align: center;
@@ -276,7 +276,7 @@ nav ul li {
   color: var(--primary-white);
 }
 
-/************************EXPERIENCE***************************/
+/************************EXPERIENCE SECTION***************************/
 
 .experience {
   padding: 0.7rem;
@@ -345,7 +345,7 @@ nav ul li {
   font-weight: 600;
 }
 
-/*******************MEDIA********************/
+/*******************MEDIA FOR EXPERIENCE SECTION********************/
 @media(max-width: 768px) {
   .experience .container {
     padding-left: 0;
@@ -370,7 +370,7 @@ nav ul li {
 
 
 
-/*******************PORTFOLIO*******************/
+/**************************PORTFOLIO SECTION***************************/
 
 .portfolio-wrapper {
   background: var(--primary-light-grey);
@@ -440,7 +440,7 @@ nav ul li {
   color: var(--primary-red);
 }
 
-/************************MEDIA*********************/
+/************************MEDIA FOR PORTFOLIO SECTION*********************/
 @media(max-width: 768px) {
   .portfolio-img-popupbox {
     width: 100%;
@@ -468,7 +468,7 @@ nav ul li {
 }
 
 
-/************************TESTIMONIALS********************/
+/************************TESTIMONIALS SECTION********************/
 .testimonials {
   background: url(testimonials-bg.jpg);
   background-size: cover;
@@ -532,3 +532,63 @@ nav ul li {
   margin: auto !important;
   margin-top: 3% !important;
 }
+
+
+/************************CONTACTS SECTION********************/
+.contacts {
+  background: var(--primary-dark);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-orange);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-light-grey);
+  font-size: 1.2rem;
+  font-weight: 80;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+/************************INPUT SECTION********************/
+
+.contacts input,
+.contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: none;
+  border-bottom: .125rem solid var(--primary-dark-grey);
+  border-radius: 0;
+  color: var(--primary-orange);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+  background: transparent;
+  color: var(--primary-orange);
+  border-bottom: .125rem solid var(--primary-dark-grey);
+}
+
+.contacts textarea {
+  height: 12.5rem !important;
+}
+
+.contacts-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+/*************MEDIA FOR CONTACTS SECTION***********/
