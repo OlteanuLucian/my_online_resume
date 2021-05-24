@@ -2,13 +2,13 @@ import { faCentercode } from "@fortawesome/free-brands-svg-icons"
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons"
 import React from "react"
 
-const Experience = () => {
+const Education = () => {
     return (
-        <div id = "experience" className="experience">
+        <div id = "education" className="education">
             <div className="d-flex justify-content-center my-5">
-                <h1>experience</h1>
+                <h1>education</h1>
             </div>            
-            <div className="container experience-wrapper">
+            <div className="container education-wrapper">
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className = "timeline-content">
@@ -43,5 +43,5 @@ const Experience = () => {
     )
 }
 
-export default Experience;
+export default Education;
 

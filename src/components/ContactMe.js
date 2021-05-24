@@ -152,7 +152,7 @@ const ContactMe = () => {
                             <span className = "error-message">
                                     {errors.description && errors.description.message}
                             </span>
-                            <button className = "btn-main-offer contacts-btn">contact me</button>
+                            <button className = "btn-contact-footer contacts-btn">contact me</button>
                         </div>
                     </div>
                 </form>

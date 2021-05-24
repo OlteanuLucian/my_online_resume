@@ -25,7 +25,7 @@ const Footer = () => {
                             <a href= "tel: +40748965216">+40748965216</a>
                         </div>
                         <div className = "d-flex">
-                            <p>webdes@gmail.com</p>
+                            <p>lucianwebd@gmail.com</p>
                         </div>
                     </div>
                     <div className = "col-lg-3 col-md-2 col-sm-6">
@@ -35,10 +35,10 @@ const Footer = () => {
                                 <br></br>
                                 <Link smooth={true} to ="about_me" offset = {-50} className = "footer-nav">About me</Link>
                                 <br></br>
-                                <Link smooth={true} to ="services" offset = {-50} className = "footer-nav">Services</Link>
+                                <Link smooth={true} to ="education" offset = {-50} className = "footer-nav">Education</Link>
                             </div>
                             <div className = "col">
-                                <Link smooth={true} to ="experience" offset = {-50} className = "footer-nav">Experience</Link>
+                                <Link smooth={true} to ="services" offset = {-50} className = "footer-nav">Services</Link>
                                 <br></br>
                                 <Link smooth={true} to ="portfolio" offset = {-50} className = "footer-nav">Portfolio</Link>
                                 <br></br>
@@ -47,7 +47,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className = "col-lg-4 col-md-4 col-sm-6 align-items-center">
+                        
                         <div className ="d-flex justify-content-center">
+                        <p>Share me on:</p>
                             <FacebookShareButton 
                                 url={"https://github.com/OlteanuLucian"}
                                 quote={"Web development"}
@@ -82,7 +84,7 @@ const Footer = () => {
                         </div>
                         <p className = "pt-3 text-center">
                             Copyright&copy;
-                            {new Date().getFullYear()}&nbsp;WebDes | All Rights Reserved
+                            {new Date().getFullYear()}&nbsp;LucianWebD | All Rights Reserved
                         </p>
                     </div>
                 </div>
