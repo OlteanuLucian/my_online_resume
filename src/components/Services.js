@@ -14,17 +14,17 @@ const Services = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-6">
                         <div className="box">
-                            <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
-                            <h3>Web Design</h3>
-                            <p>I approach each project individually and always focus on the result</p>
-                        </div>
-                    </div>
-                    {/* - */}
-                    <div className="col-lg-4 col-md-4 col-sm-6">
-                        <div className="box">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
                             <h3>Web Development</h3>
                             <p>Your website will be build with the latest technologies</p>
+                        </div>
+                    </div>
+                    {/*  */}
+                    <div className="col-lg-4 col-md-4 col-sm-6">
+                        <div className="box">
+                            <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
+                            <h3>Web Design</h3>
+                            <p>I approach each project individually and always focus on the result</p>
                         </div>
                     </div>
                     {/* - */}

@@ -16,18 +16,25 @@ const Portfolio = () => {
     const openPopupboxTaskManager = () => {
         const content =(       
         <>
-        <img className= "portfolio-img-popupbox" src={taskManager} alt="Task Manager Project"/>
+        <img className= "portfolio-img-popupbox" src={taskManager} alt="Task Manager App Project"/>
         <p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
         <b>GitHub:</b> <a className="hyper-link" onClick = {()=> window.open ("https://github.com/OlteanuLucian/home-study")}>https://github.com/OlteanuLucian/home-study</a>
         </>
     )
-        PopupboxManager.open({content})
+        PopupboxManager.open({content});
+        PopupboxManager.update({
+            content,
+            config: {
+              titleBar: {
+                text: "Task Manager App Project",
+              },
+            },
+          });
     }
     
     const popupboxConfigTaskManager={
         titleBar: {
             enable: true,
-            text: "Task manager project."
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -42,13 +49,20 @@ const Portfolio = () => {
         <b>GitHub:</b> <a className="hyper-link" onClick = {()=> window.open ("https://github.com/OlteanuLucian/home-study")}>https://github.com/OlteanuLucian/home-study</a>
         </>
     )
-        PopupboxManager.open({content})
+        PopupboxManager.open({content});
+        PopupboxManager.update({
+            content,
+            config: {
+              titleBar: { 
+                  text: "City Guide App Project",
+              },
+            },
+          });
     }
     
     const popupboxConfigCityGuide={
         titleBar: {
             enable: true,
-            text: "City guide project."
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -65,13 +79,20 @@ const Portfolio = () => {
         <b>GitHub:</b> <a className="hyper-link" onClick = {()=> window.open ("https://github.com/OlteanuLucian/home-study")}>https://github.com/OlteanuLucian/home-study</a>
         </>
     )
-        PopupboxManager.open({content})
+        PopupboxManager.open({content});
+        PopupboxManager.update({
+            content,
+            config: {
+              titleBar: {
+                text: "Blog Design Project",
+              },
+            },
+          });
     }
     
     const popupboxConfigBlogProject={
         titleBar: {
             enable: true,
-            text: "Blog project."
         },
         fadeIn: true,
         fadeInSpeed: 500
