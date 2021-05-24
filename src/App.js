@@ -19,52 +19,68 @@ function App() {
       <Particles
         className="particles-canvas"
         params={{
-          particles: {
-            number: {
-              value: 20,
-              density: {
-                enable: true,
-                value_area: 1000
+          "particles": {
+              "number": {
+                  "value": 60,
+                  "density": {
+                      "enable": true,
+                      "value_area": 1500
+                  }
+              },
+              "line_linked": {
+                  "enable": true,
+                  "opacity": 0.15
+              },
+              "move": {
+                  "direction": "right",
+                  "speed": 0.05
+              },
+              "size": {
+                  "value": 2
+              },
+              "opacity": {
+                  "anim": {
+                      "enable": true,
+                      "speed": 2,
+                      "opacity_min": 0.5
+                  }
               }
-            },
-            color: {
-              value: "#fffff"
-            },
-            shape: {
-              type: "circle",
-              stroke: {
-                width: 6,
-                color: "#ffffff"
+          },
+          "interactivity": {
+              "events": {
+                  "onclick": {
+                      "enable": true,
+                      "mode": "push"
+                  }
+              },
+              "modes": {
+                  "push": {
+                      "particles_nb": 1
+                  }
               }
-            }
-          }
-        }}
+          },
+          "retina_detect": true
+      }}
       />
       <Navbar />
 
       <Header />
 
       <AboutMe />
-
+      
       <Education />
       
       <Services />
 
-      
-
-      
-
       <Portfolio />
-
-      {/* <Testimonials /> */}
 
       <ContactMe />
 
       <Footer />
+
+
+
     </>
-
-
-
   );
 }
 

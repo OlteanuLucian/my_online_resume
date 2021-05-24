@@ -1,6 +1,8 @@
 import { faCentercode } from "@fortawesome/free-brands-svg-icons"
 import { faFileExcel } from "@fortawesome/free-solid-svg-icons"
 import React from "react"
+import scitLogo from "../scit.png";
+import uaicLogo from "../uaic.png"
 
 const Education = () => {
     return (
@@ -12,30 +14,36 @@ const Education = () => {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className = "timeline-content">
-                        <h3>2020 - current</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-                        veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> 
+                        <img src = {scitLogo} alt = "scit logo" width = "100px"/>
+                        <h4>2021-2021 - The Informal School of IT, Cluj-Napoca</h4>
+                        <p>Web Development</p> 
                     </div>
                 </div>
                 {/* - */}
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className = "timeline-content">
-                        <h3>2018-2020</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-                        veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <img src = {scitLogo} alt = "scit logo" width = "100px"/>
+                        <h4>2020-2020 - The Informal School of IT, Cluj-Napoca</h4>
+                        <p>Intro in IT</p>
+                    </div>
+                </div>
+                {/* - */}
+                <div className="timeline-block timeline-block-right">
+                    <div className="marker"></div>
+                    <div className = "timeline-content">
+                        <img src={uaicLogo} alt = "scit logo" width = "50px"/>
+                        <h4>2009-2011 - University "Al. I. Cuza" Iași</h4>
+                        <p>MSc. Environmental Geochemistry</p>
                     </div>
                 </div>
                 {/* - */}
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className = "timeline-content">
-                        <h3>2014-2018</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-                        veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <img src={uaicLogo} alt = "scit logo" width = "50px"/>
+                        <h4>2004-2009 - University "Al. I. Cuza" Iași</h4>
+                        <p>BSc. Engineering Geology</p>
                     </div>
                 </div>
             </div>
