@@ -33,7 +33,7 @@ function App() {
               },
               "move": {
                   "direction": "right",
-                  "speed": 0.05
+                  "speed": 0.5
               },
               "size": {
                   "value": 2
