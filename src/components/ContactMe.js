@@ -5,7 +5,7 @@ import {useForm} from "react-hook-form"
 
 const ContactMe = () => {
     
-    //form validation using react-hook-form
+    //form validation 
 
     const [successMessage, setSuccessMessage] = useState("");
     const {register, handleSubmit, formState:{errors}} = useForm();
@@ -39,12 +39,11 @@ const ContactMe = () => {
             }).catch(err => console.error(`Something went wrong ${err}`));
     }
 
-
     return (
-        <div className = "contacts">
+        <div id = "contacts" className = "contacts">
             <div className = "text-center">            
                 <h1>contact me</h1>
-            <p>Please fill out this form and describe your ideas. I'll contact you as soon as possible. </p>
+            <p>Please fill out this form and describe your project ideas. I'll contact you as soon as possible. </p>
             <span className = "success-message">{successMessage}</span>
             </div>
             <div className = "container">
@@ -152,7 +151,7 @@ const ContactMe = () => {
                             <span className = "error-message">
                                     {errors.description && errors.description.message}
                             </span>
-                            <button className = "btn-main-offer contacts-btn">contact me</button>
+                            <button className = "btn-contact-footer contacts-btn">contact me</button>
                         </div>
                     </div>
                 </form>

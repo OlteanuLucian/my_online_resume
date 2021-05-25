@@ -535,7 +535,7 @@ nav ul li {
 }
 
 
-/************************CONTACTS SECTION********************/
+/************************************************************CONTACTS SECTION******************************************************/
 .contacts {
   background: var(--primary-dark);
   padding: 3rem 0;
@@ -586,9 +586,27 @@ nav ul li {
   height: 17rem !important;
 }
 
+.btn-contact-footer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 10%;
+  padding: .625rem .75rem .75rem .75rem;
+  color: #3ddb1e;
+  margin: 2rem;
+  font-weight: bold;
+  background: var(--primary-dark-grey);
+}
+
+.btn-contact-footer:hover {
+  text-decoration: none;
+  background-color: #b9f80a;
+  color: #283c34;
+  transition: .2 ease-in-out;
+}
+
 .contacts-btn {
   margin: .2rem 0 0 0;
-  width: 100%;
+  width: 20%;
   background: none;
 }
 
@@ -619,13 +637,9 @@ textarea .form-control {
   color: var(--primary-white);
   background: var(--primary-hover-red);
   text-align: left;
-  /* vertical-align: middle; */
-}
-
-/* .span {
   position: relative;
-  bottom: -20px;
-} */
+  top: -100px;
+}
 
 .success-message {
   font-weight: 1000;
