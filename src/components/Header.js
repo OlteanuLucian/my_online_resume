@@ -19,7 +19,9 @@ const Header = () => {
                     backSpeed={60}
                     loop
                 />
+
                 <Link smooth={true} to ="contacts" offset = {-50}><button className = "btn-contact-header">contact me</button></Link>
+
                 <ul className="skill-icons-container">
                     <li>
                         <a className = "icon-source" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
@@ -46,14 +48,9 @@ const Header = () => {
                             <FaGitSquare color="#4078c0" size="4rem"/>
                         </a>
                    </li>
-                    
-                </ul>
-                
+                </ul>                
             </div>
         </div>
-
-
-
     )
 }
 

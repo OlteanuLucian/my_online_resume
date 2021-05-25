@@ -5,7 +5,7 @@ import {useForm} from "react-hook-form"
 
 const ContactMe = () => {
     
-    //form validation using react-hook-form
+    //form validation 
 
     const [successMessage, setSuccessMessage] = useState("");
     const {register, handleSubmit, formState:{errors}} = useForm();
@@ -38,7 +38,6 @@ const ContactMe = () => {
               setSuccessMessage("All good! I'll contact you ASAP.");
             }).catch(err => console.error(`Something went wrong ${err}`));
     }
-
 
     return (
         <div id = "contacts" className = "contacts">
