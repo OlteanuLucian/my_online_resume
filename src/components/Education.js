@@ -14,9 +14,15 @@ const Education = () => {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className = "timeline-content">
+
+                        <div className = "capsule-logo-education">
                         <img src = {scitLogo} alt = "scit logo" width = "120px"/>
+
                         <h4>2021-2021 - The Informal School of IT, Cluj-Napoca</h4>
-                        <p>Web Development</p> 
+                        </div>
+                        <p>Web Development</p>
+                         
+
                     </div>
                 </div>
                 {/* - */}

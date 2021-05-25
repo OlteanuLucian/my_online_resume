@@ -19,7 +19,7 @@ const Footer = () => {
                 <div className = "row">
                     <div className = "col-lg-4 col-md-6 col-sm-6">
                         <div className = "d-flex">
-                            <p>city Cluj-Napoca, G. Baritiu st., no 34, </p>
+                            <p>city Cluj-Napoca, G. Barițiu st., no 34, </p>
                         </div>
                         <div className = "d-flex">
                             <a href= "tel: +40748965216">+40748965216</a>
