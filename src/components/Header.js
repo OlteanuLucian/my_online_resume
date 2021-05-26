@@ -23,8 +23,9 @@ const Header = () => {
                 />
                 
 
-<Flip delay={3000} duration={3000}>
-                <Link smooth={true} to ="contacts" offset = {-50}><button className = "btn-contact-header">contact me</button></Link> </Flip>
+                <Flip delay={2000} duration={3000}>
+                    <Link smooth={true} to ="contacts" offset = {-50}><button className = "btn-contact-header">contact me</button></Link> 
+                </Flip>
                 
                 <ul className="skill-icons-container">
                     <li>

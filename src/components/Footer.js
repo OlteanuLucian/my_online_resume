@@ -10,24 +10,26 @@ import {
     LinkedinIcon
 } from "react-share"
 import {Link} from "react-scroll"
-
+import Fade from "react-reveal/Fade";
 
 const Footer = () => {
     return (
         <div className = "footer">
             <div className = "container">
                 <div className = "row">
+                <Fade delay={4000} duration={3000}>
                     <div className = "col-lg-4 col-md-6 col-sm-6">
                         <div className = "d-flex">
-                            <p>city Cluj-Napoca, G. Barițiu st., no 34, </p>
+                            <a href="https://www.google.com/maps/place/Strada+George+Bari%C8%9Biu+24,+Cluj-Napoca+400000/@46.7727155,23.5836707,17z/data=!3m1!4b1!4m5!3m4!1s0x47490e9c76a6888b:0xc883245bf02d74c8!8m2!3d46.7727155!4d23.5858594" 
+                            target="_blank">city Cluj-Napoca, G. Barițiu st., no 24, 400000 </a>
                         </div>
                         <div className = "d-flex">
                             <a href= "tel: +40748965216">+40748965216</a>
                         </div>
                         <div className = "d-flex">
-                            <p>lucianwebd@gmail.com</p>
+                            <a href="mailto: lucianwebdev@gmail.com">lucianwebd@gmail.com</a>
                         </div>
-                    </div>
+                    </div></Fade>
                     <div className = "col-lg-3 col-md-2 col-sm-6">
                         <div className = "row">
                             <div className = "col">

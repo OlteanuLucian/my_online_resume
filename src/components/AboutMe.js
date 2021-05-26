@@ -18,26 +18,13 @@ const AboutMe = () => {
                     <h1 className = "about-heading">about me</h1>
                     
                     
-                    {/* <div className= "about-me-text"> */}
-                        <p><span className="span1"> Hello!</span></p>
-
+                        <h4><span className="span1"> Hello!</span></h4>
                         <p>&emsp;My name is <span className="span2">Lucian</span> and I'm a freshly new  <span className="span3">junior front-end developer</span>.</p> 
-                        <p>&emsp; I'm currently a beginner, but I'm eager to learn new things everyday and develop my skills. </p>
-                        <p>&emsp; I'm a sociable, hardworking, open-minded person who knows to work well against deadlines.</p>
-                        <p>&emsp; sd;lfkjsd;kljf;l</p>
-                        {/* <div>
-                            <span className="span1"> Hello!</span>
-                        </div>
-                        <div> 
-                            &emsp; My name is <span className="span2">Lucian</span> and I'm a freshly new  <span className="span3">junior front-end developer</span>.
-                        </div>
-                        <div> 
-                            &emsp; I'm currently a beginner, but I'm eager to learn new things everyday and develop my skills.
-                        </div>
-                        <div>
-                            &emsp; I'm a sociable, hardworking, open-minded person who knows to work well against deadlines.
-                        </div> */}
-                    {/* </div> */}
+                        <p>&emsp; I'm a results driven person who changed gears from the rig site to the office via The Informal School of IT. I just graduated the Web Development Course
+                        with them as I’m aspiring to become a frontend web developer.</p>
+                        <p>&emsp; I believe am an enthusiastic person who genuinely wants to develop necessary skills and qualities to have a successful career and future.</p> 
+                        <p>&emsp;I am genuinely a positive person, I'm  sociable, hardworking and open-minded who knows to work well against deadlines.</p> 
+                                              
                 </div>
             </div>
         </div>

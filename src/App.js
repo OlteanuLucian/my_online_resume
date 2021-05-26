@@ -8,7 +8,6 @@ import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import Education from "./components/Education";
 import Portfolio from "./components/Portfolio";
-// import Testimonials from "./components/Testimonials";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 
@@ -62,10 +61,12 @@ function App() {
           "retina_detect": true
       }}
       />
+
+
       <Navbar />
-
+      
       <Header />
-
+      
       <AboutMe />
       
       <Education />
