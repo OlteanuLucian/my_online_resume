@@ -1,5 +1,7 @@
-import React from "react"
-import author from "../aboutme.jpg"
+import React from "react";
+import author from "../aboutme.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 const AboutMe = () => {
@@ -11,11 +13,31 @@ const AboutMe = () => {
                         <img className = "profile-img" src={author} alt="author..." />
                     </div>
                 </div>
-                <div className = "col-lg-6 col-xm-12">
+                <div className = "col-lg-6 col-xm-12 about-me-text">
+                
                     <h1 className = "about-heading">about me</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    
+                    
+                    {/* <div className= "about-me-text"> */}
+                        <p><span className="span1"> Hello!</span></p>
+
+                        <p>&emsp;My name is <span className="span2">Lucian</span> and I'm a freshly new  <span className="span3">junior front-end developer</span>.</p> 
+                        <p>&emsp; I'm currently a beginner, but I'm eager to learn new things everyday and develop my skills. </p>
+                        <p>&emsp; I'm a sociable, hardworking, open-minded person who knows to work well against deadlines.</p>
+                        <p>&emsp; sd;lfkjsd;kljf;l</p>
+                        {/* <div>
+                            <span className="span1"> Hello!</span>
+                        </div>
+                        <div> 
+                            &emsp; My name is <span className="span2">Lucian</span> and I'm a freshly new  <span className="span3">junior front-end developer</span>.
+                        </div>
+                        <div> 
+                            &emsp; I'm currently a beginner, but I'm eager to learn new things everyday and develop my skills.
+                        </div>
+                        <div>
+                            &emsp; I'm a sociable, hardworking, open-minded person who knows to work well against deadlines.
+                        </div> */}
+                    {/* </div> */}
                 </div>
             </div>
         </div>

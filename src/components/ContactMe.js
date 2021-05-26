@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import emailjs from "emailjs-com"
 import {useForm} from "react-hook-form"
-
+import Fade from "react-reveal/Fade"
 
 const ContactMe = () => {
     
@@ -151,7 +151,7 @@ const ContactMe = () => {
                             <span className = "error-message">
                                     {errors.description && errors.description.message}
                             </span>
-                            <button className = "btn-contact-footer contacts-btn">contact me</button>
+                            <Fade delay={2000} duration={3000}><button className = "btn-contact-footer contacts-btn">contact me</button></Fade>
                         </div>
                     </div>
                 </form>

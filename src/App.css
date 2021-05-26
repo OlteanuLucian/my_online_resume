@@ -134,7 +134,7 @@ nav ul li {
 }
 
 .main-info h2 {
-  color: #3ddb1e;
+  color: var(--primary-orange);
 }
 
 
@@ -142,6 +142,18 @@ nav ul li {
   .main-info h1 {
     font-size: 1.7rem !important;
   }
+}
+
+.media-items-home-page {
+  flex: 0.5;
+  width: 10%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  top: 2rem;
 }
 
 
@@ -168,6 +180,9 @@ nav ul li {
   margin: 2rem;
   font-weight: bold;
   background: var(--primary-dark-grey);
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
 }
 
 .btn-contact-header:hover {
@@ -224,6 +239,27 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.about-me-text {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+
+}
+
+.span1 {
+  color: #8c6f56;
+}
+
+.span2 {
+  color: #8c6f56;
+  font-style: italic;
+}
+
+.span3 {
+  color: #8c6f56;
+}
+
 @media (max-width: 468px) {
   .profile-img {
     width: 8rem;
@@ -243,6 +279,19 @@ nav ul li {
   padding: 3.125rem 0;
   overflow: hidden;
   background: var(--primary-light-grey)
+}
+
+.capsule-logo-education {
+  display: flex;
+  justify-content: space-between;
+}
+
+.capsule-logo-education h4 {
+  margin-left: 20px;
+}
+
+.capsule-logo-education>img {
+  height: 100%;
 }
 
 .education h1 {
@@ -292,7 +341,7 @@ nav ul li {
 .timeline-content {
   width: 95%;
   padding: 0 .9375rem;
-  color: var(--primary-orange);
+  color: var(--primary-black);
   direction: ltr;
 }
 

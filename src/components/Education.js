@@ -18,38 +18,46 @@ const Education = () => {
                         <div className = "capsule-logo-education">
                         <img src = {scitLogo} alt = "scit logo" width = "120px"/>
 
-                        <h4>2021-2021 - The Informal School of IT, Cluj-Napoca</h4>
+                        <h4> 2021-2021 - The Informal School of IT, Cluj-Napoca</h4>
+                        
                         </div>
-                        <p>Web Development</p>
-                         
-
+                        <p><strong>Web Development</strong></p>
                     </div>
                 </div>
                 {/* - */}
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className = "timeline-content">
+                    <div className = "capsule-logo-education">
                         <img src = {scitLogo} alt = "scit logo" width = "120px"/>
                         <h4>2020-2020 - The Informal School of IT, Cluj-Napoca</h4>
-                        <p>Intro in IT</p>
+                        </div>
+                        <p><strong>Intro in IT</strong></p>
+                        
                     </div>
                 </div>
                 {/* - */}
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className = "timeline-content">
+                    <div className = "capsule-logo-education">
                         <img src={uaicLogo} alt = "scit logo" width = "60px"/>
                         <h4>2009-2011 - University "Al. I. Cuza" Iași</h4>
-                        <p>MSc. Environmental Geochemistry</p>
+                        </div>
+                        <p><strong>MSc. Environmental Geochemistry</strong></p>
+                        
                     </div>
                 </div>
                 {/* - */}
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className = "timeline-content">
+                    <div className = "capsule-logo-education">
                         <img src={uaicLogo} alt = "scit logo" width = "60px"/>
                         <h4>2004-2009 - University "Al. I. Cuza" Iași</h4>
-                        <p>BSc. Engineering Geology</p>
+                        </div>
+                        <p><strong>BSc. Engineering Geology</strong></p>
+                        
                     </div>
                 </div>
             </div>
