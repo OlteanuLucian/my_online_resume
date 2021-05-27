@@ -12,26 +12,48 @@ function App() {
       <Particles
         className="particles-canvas"
         params={{
-          particles: {
-            number: {
-              value: 20,
-              density: {
-                enable: true,
-                value_area: 1000
+          "particles": {
+              "number": {
+                  "value": 60,
+                  "density": {
+                      "enable": true,
+                      "value_area": 1500
+                  }
+              },
+              "line_linked": {
+                  "enable": true,
+                  "opacity": 0.15
+              },
+              "move": {
+                  "direction": "right",
+                  "speed": 0.5
+              },
+              "size": {
+                  "value": 2
+              },
+              "opacity": {
+                  "anim": {
+                      "enable": true,
+                      "speed": 2,
+                      "opacity_min": 0.5
+                  }
               }
-            },
-            color: {
-              value: "#fff"
-            },
-            shape: {
-              type: "circle",
-              stroke: {
-                width: 6,
-                color: "#f9ab00"
+          },
+          "interactivity": {
+              "events": {
+                  "onclick": {
+                      "enable": true,
+                      "mode": "push"
+                  }
+              },
+              "modes": {
+                  "push": {
+                      "particles_nb": 1
+                  }
               }
-            }
-          }
-        }}
+          },
+          "retina_detect": true
+      }}
       />
       <Navbar />
       <Header />
