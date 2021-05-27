@@ -146,12 +146,13 @@ const ContactMe = () => {
                                     })
                                 }>
                                 </textarea>
-                                <div className = "line"></div> 
+                                <div className = "line"></div>
+                                <Fade delay={2000} duration={3000}><button className = "btn-contact-footer contacts-btn">contact me</button></Fade> 
                             </div>
                             <span className = "error-message">
                                     {errors.description && errors.description.message}
                             </span>
-                            <Fade delay={2000} duration={3000}><button className = "btn-contact-footer contacts-btn">contact me</button></Fade>
+                            
                         </div>
                     </div>
                 </form>

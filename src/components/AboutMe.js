@@ -1,7 +1,6 @@
 import React from "react";
 import author from "../aboutme.jpg";
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 
 
 const AboutMe = () => {
