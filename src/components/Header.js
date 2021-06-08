@@ -20,8 +20,7 @@ const Header = () => {
                     typeSpeed={40}
                     backSpeed={60}
                     loop
-                />
-                
+                />                
 
                 <Flip delay={2000} duration={3000}>
                     <Link smooth={true} to ="contacts" offset = {-50}><button className = "btn-contact-header">contact me</button></Link> 

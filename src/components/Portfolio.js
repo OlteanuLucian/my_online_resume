@@ -95,7 +95,7 @@ const Portfolio = () => {
             enable: true,
         },
         fadeIn: true,
-        fadeInSpeed: 500
+        fadeInSpeed: 1000
     } 
 
  

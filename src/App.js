@@ -1,6 +1,9 @@
 
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { Redirect } from 'react-router';
 import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -61,8 +64,7 @@ function App() {
           "retina_detect": true
       }}
       />
-
-
+    
       <Navbar />
       
       <Header />
@@ -78,13 +80,8 @@ function App() {
       <ContactMe />
 
       <Footer />
-
-
-
     </>
   );
 }
-
-
 
 export default App;

@@ -18,7 +18,7 @@ const AboutMe = () => {
                     
                     
                         <h4><span className="span1"> Hello!</span></h4>
-                        <p>&emsp;My name is <span className="span2">Lucian</span> and I'm a freshly new  <span className="span3">junior front-end developer</span>.</p> 
+                        <p>&emsp; My name is <span className="span2">Lucian</span> and I'm a freshly new  <span className="span3">junior front-end developer</span>.</p> 
                         <p>&emsp; I'm a results driven person who changed gears from the rig site to the office via The Informal School of IT. I just graduated the Web Development Course
                         with them as I’m aspiring to become a frontend web developer.</p>
                         <p>&emsp; I believe am an enthusiastic person who genuinely wants to develop necessary skills and qualities to have a successful career and future.</p> 
